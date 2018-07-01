@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Journal App</string>
+    <string name="sign_in">Sign In With Google</string>
+    <string name="Welcome_message">Welcome to your personal journal, it keeps your thoughts in one place and accessible on any device</string>
+
+    <!--For Google Log Activity-->
+    <string name="loading">Loading please wait...</string>
+    <string name="label_firebase_ui">FirebaseUI Auth</string>
+    <string name="desc_firebase_ui">Use the FirebaseUI-Android library to authenticate with Firebase.</string>
+
+    <string name="hint_user_id">User ID</string>
+    <string name="get_custom_token">Get Token</string>
+    <string name="create_account">Create Account</string>
+    <string name="send_link">Send Link</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="sign_continue">Continue</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="custom_token">Custom Token</string>
+    <string name="signed_in">Signed In</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="token_null">Token: null</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="desc_firebase_lockup">Firebase logo and name</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="start_phone_auth">Start</string>
+    <string name="verify_phone_auth">Verify</string>
+    <string name="resend_phone_auth">Resend</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="hint_verification_code">Verification Code</string>
+    <string name="status_code_sent">Code Sent</string>
+    <string name="status_verification_failed">Verification failed</string>
+    <string name="status_verification_succeeded">Verification succeeded</string>
+    <string name="status_sign_in_failed">Sign-in failed</string>
+    <string name="instant_validation">(instant validation)</string>
+
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+    <string name="firebase_user_management">Firebase User Management</string>
+
+    <string name="google_status_fmt">Google User: %s</string>
+    <string name="google_title_text">Google Sign In</string>
+
+    <!--Floating button-->
+    <string name="action_sign_out">Sign Out</string>
+    <string name="action_save">Save</string>
+    <string name="action_done">Done</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete all</string>
+
+    <string name="editor_activity_title_new_entry">Add Entry</string>
+    <string name="editor_activity_title_edit">Edit Entry</string>
+    <string name="editor_insert_entry_failed">Error saving entry</string>
+    <string name="editor_insert_entry_successful">Entry saved</string>
+    <string name="editor_update_entry_failed">Error updating entry</string>
+    <string name="editor_update_entry_successful">Entry updated</string>
+
+    <!-- Toast message in editor when current Entry was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_entry_successful">Entry deleted</string>
+
+    <!-- Toast message in editor when current Entry has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_entry_failed">Error with deleting Entry</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current Entry [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this Entry?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current Entry [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current Entry [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current entry [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+</resources>
